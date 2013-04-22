@@ -67,7 +67,10 @@ public class WUGraph {
    *
    * Running time:  O(|V|).
    */
-  public Object[] getVertices();
+  public Object[] getVertices(){
+  	Object vert[] = new Object[vertexCount()]
+  	
+  }
 
   /**
    * addVertex() adds a vertex (with no incident edges) to the graph.  The
